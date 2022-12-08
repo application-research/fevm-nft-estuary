@@ -24,6 +24,8 @@ The contracts here are based on EVM industry standard ERC721 protocol to create 
 - Open a blank workspace
 - Load the files to local workspace
 
+![image](https://user-images.githubusercontent.com/4479171/206564098-2e4d4ef1-3fd5-4803-8f52-6cacaeaf39fc.png)
+
 ## Method 2: Truffle
 Install the truffle library
 ```
