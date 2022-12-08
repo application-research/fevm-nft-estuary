@@ -18,7 +18,7 @@ The contracts here are based on EVM industry standard ERC721 protocol to create 
 - Blind Box reveal using baseURI
 - Estuary Gateway
 
-# How to run the contract
+# How to deploy the contract
 
 ## Method 1: Remix
 - Ensure that you have metamask setup and have tFil. Instructions [here](https://docs.filecoin.io/fvm/how-tos/add-to-metamask/).
