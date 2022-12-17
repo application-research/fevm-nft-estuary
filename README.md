@@ -1,7 +1,5 @@
 # Estuary FEVM NFT Contract
 
-![image](https://user-images.githubusercontent.com/4479171/160626375-3229ff8c-8da3-41f4-b4da-2fb1b1302f29.png)
-
 The repository consists of ERC 721 Contracts
 
 # Overview
@@ -20,11 +18,16 @@ The contracts here are based on EVM industry standard ERC721 protocol to create 
 - Blind Box reveal using baseURI
 - Estuary Gateway
 
-# How to run the contract
+# How to deploy the contract
 
 ## Method 1: Remix
+- Ensure that you have metamask setup and have tFil. Instructions [here](https://docs.filecoin.io/fvm/how-tos/add-to-metamask/).
 - Open a blank workspace
 - Load the files to local workspace
+
+![image](https://user-images.githubusercontent.com/4479171/206564098-2e4d4ef1-3fd5-4803-8f52-6cacaeaf39fc.png)
+
+- Compile the Estuary721.sol
 
 ## Method 2: Truffle
 Install the truffle library
