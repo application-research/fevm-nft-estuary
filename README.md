@@ -45,7 +45,7 @@ Run the following commands to deploy
 ```
 truffle compile
 truffle build
-truffle deploy --network test // for testnet (mainnet for main network)
+truffle deploy --network testnet // for testnet (mainnet for main network)
 ```
 
 ## Live contract
