@@ -34,4 +34,4 @@ contract DieselPriceOracleCall is usingProvable { // wont work yet until FEVM is
         emit LogNewProvableQuery("Provable query was sent, standing by for the answer...");
         provable_query("URL", "xml(https://www.fueleconomy.gov/ws/rest/fuelprices).fuelPrices.diesel");
     }
-}a
+}
