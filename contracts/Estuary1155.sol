@@ -12,6 +12,9 @@ contract Estuary1155 is ERC1155 {
     uint256 public constant AYUSH_PRINCE = 5;
     uint256 public constant COCO_PRINCESS = 6;
     uint256 public constant BEN_LINUX_GRAND_MASTER = 7;
+    uint256 public constant LUC_LORD = 8;
+    uint256 public constant TOAST_STRONG_ARM = 9;
+    uint256 public constant ELIJA_OVERLORD = 10;
 
     constructor() public ERC1155("https://gateway.estuary.tech/gw/ipfs/<CID>/{id}.json") {
         _mint(msg.sender, CAKE_LEGEND, 10**18, "");
@@ -22,5 +25,8 @@ contract Estuary1155 is ERC1155 {
         _mint(msg.sender, AYUSH_PRINCE, 10**9, "");
         _mint(msg.sender, COCO_PRINCESS, 10**9, "");
         _mint(msg.sender, BEN_LINUX_GRAND_MASTER, 10**9, "");
+        _mint(msg.sender, LUC_LORD, 10**9, "");
+        _mint(msg.sender, TOAST_STRONG_ARM, 10**9, "");
+        _mint(msg.sender, ELIJA_OVERLORD, 10**9, "");
     }
 }
