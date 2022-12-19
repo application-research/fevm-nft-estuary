@@ -20,8 +20,11 @@ The contracts here are based on EVM industry standard ERC721 protocol to create 
 
 # How to deploy the contract
 
+## Metamask and TFIL
+- Set up your metamask using the following instructions [here](https://docs.filecoin.io/fvm/how-tos/add-to-metamask/)
+- Make sure you have TFIL before deploying the contract. Get your TFIL [here](https://wallaby.network/#faucet)
+
 ## Method 1: Remix
-- Ensure that you have metamask setup and have tFil. Instructions [here](https://docs.filecoin.io/fvm/how-tos/add-to-metamask/).
 - Open a blank workspace
 - Load the files to local workspace
 
